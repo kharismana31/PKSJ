@@ -11,6 +11,7 @@ SSH merupakan singkatan dari Secure Shell yang merupakan suatu aplikasi penggant
 ##Uji Penetrasi 1
 ###Instalasi Ubuntu Server
 ![](images/install_ubuntu_server_1.png?raw=true)
+![](images/install_ubuntu_server_2.png?raw=true)
 
 
 ###Instalasi Kali Linux
