@@ -1,5 +1,13 @@
 ##Pendahuluan
+Dalam merancang sebuah sistem atau jaringan yang aman, pemilik melakukan berbagai usaha untuk menjamin sistem atau jaringan tersebut benar benar aman. Salah satu cara untuk menjamin keamanan tersebut adalah dengan menyerang sistem atau jaringan itu sendiri, dengan mengetahui cara menyerang sistem atau jaringan tersebut diharapkan pengembang sistem dapat melakukan pencegahan agar sistem tidak bisa diserang dengan cara yang sama.
 
+Kali ini, penulis akan mengulas tentang bagaimana sebuah sistem dapat diserang dengan brute force attack, dimana kemudian akan dilakukan usaha pencegahan penyerangan tersebut dengan melakukan brute force countermeasures. 
+
+Sistem yang menjadi bahan percobaan kali ini adalah ubuntu server yang telah terinstall SSH server, dimana penulis juga akan melakukan percobaan sebanyak 2 kali penetrasi. Pada penetrasi pertama,dilakukan penyerangan pada sistem ubuntu server melalui SSH server yang telah terinstall dan pada penetrasi kedua akan dilakukan upaya pencegahan (countermeasures) pada ubuntu server. 
+
+Untuk melakukan brute force attack pada ubuntu server, penulis melakukan penyerangan melalui Sistem operasi Kali Linux, dengan software Hydra dan ncrack. Sementara itu, countermeasure dilakukan dengan aplikasi file2ban yang terinstall di ubuntu server.
+
+Pada tulisan kali ini, akan dijelaskan secara bertahap dimulai dari penjelasan tahap uji penetrasi 1, dimulai dari instalasi Ubuntu server,instalasi OS untuk penetrasi,  instalasi SSH server,hingga uji penetrasi dengan SSH brute force tools. Dilanjutkan dengan uji penetrasi 2 dengan tahapan yang dimulai dari konfigurasi fail2ban, konfigurasi SSH server non-default, hingga uji penetrasi dengan SSH brute force tools, yang ditutup dengan kesimpulan dan saran.
 
 ##Dasar Teori
 Ubuntu Server adalah salah satu varian dari distro linux Ubuntu yang didesain untuk diinstall di server. Ubuntu Server tidak menyediakan GUI, yang ada hanya CLI (Comand Line Interface). Ubuntu Server digunakan untuk menangani memori sampai puluhan Giga ataupun menangani Multicore CPU.
