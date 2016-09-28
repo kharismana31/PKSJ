@@ -12,18 +12,25 @@ THC Hydra
 
 ##Uji Penetrasi 1
 ###Instalasi Ubuntu Server
+Memilih bahasa yang digunakan untuk menjalankan sistem operasi
 ![](images/install_ubuntu_server_1.png?raw=true)
+Memilih lokasi
 ![](images/install_ubuntu_server_2.png?raw=true)
-![](images/install_ubuntu_server_3.png?raw=true)
+Konfigurasi keyboard
+![](images/install_ubuntu_server-3.png?raw=true)
 ![](images/install_ubuntu_server_4.png?raw=true)
-![](images/install_ubuntu_server_5.png?raw=true)
+![](images/install_ubuntu_server-5.png?raw=true)
+Loading komponen tambahan
 ![](images/install_ubuntu_server_6.png?raw=true)
+Konfigurasi Jaringan
 ![](images/install_ubuntu_server_7.png?raw=true)
+Mengatur fullname, username, dan password
 ![](images/install_ubuntu_server_8.png?raw=true)
 ![](images/install_ubuntu_server_9.png?raw=true)
 ![](images/install_ubuntu_server_10.png?raw=true)
 ![](images/install_ubuntu_server_11.png?raw=true)
-![](images/install_ubuntu_server_12.png?raw=true)
+![](images/install_ubuntu_server-12.png?raw=true)
+Mendapatkan waktu berdasarkan server waktu jaringan
 ![](images/install_ubuntu_server_13.png?raw=true)
 ![](images/install_ubuntu_server_14.png?raw=true)
 ![](images/install_ubuntu_server_15.png?raw=true)
@@ -58,7 +65,6 @@ THC Hydra
 
 ###Instalsi THC Hydra
 ![](images/install_thc_hydra.png?raw=true)
-![](images/hydra.png?raw=true)
 
 
 ###Instalsi SSH Server
@@ -66,6 +72,7 @@ THC Hydra
 
 
 ###Langkah Uji Penetrasi dengan SSH Brute Force Tools
+![](images/hydra.png?raw=true)
 
 
 ##Uji Penetrasi 2
