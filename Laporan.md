@@ -10,12 +10,16 @@ Untuk melakukan brute force attack pada ubuntu server, penulis melakukan penyera
 Pada tulisan kali ini, akan dijelaskan secara bertahap dimulai dari penjelasan tahap uji penetrasi 1, dimulai dari instalasi Ubuntu server,instalasi OS untuk penetrasi,  instalasi SSH server,hingga uji penetrasi dengan SSH brute force tools. Dilanjutkan dengan uji penetrasi 2 dengan tahapan yang dimulai dari konfigurasi fail2ban, konfigurasi SSH server non-default, hingga uji penetrasi dengan SSH brute force tools, yang ditutup dengan kesimpulan dan saran.
 
 ##Dasar Teori
+###Ubuntu Server
 Ubuntu Server adalah salah satu varian dari distro linux Ubuntu yang didesain untuk diinstall di server. Ubuntu Server tidak menyediakan GUI, yang ada hanya CLI (Comand Line Interface). Ubuntu Server digunakan untuk menangani memori sampai puluhan Giga ataupun menangani Multicore CPU.
 
+###Kali Linux
 Kali Linux adalah penerus distro BackTrack. Sama seperti BackTrack, distro ini dilengkapi dengan berbagai tools Linux untuk melakukan penetration testing. Dengan Kali Linux, pengguna yang melakukan pengujian keamanan tidak perlu repot men-install atau membuat kode program/script baru. Efek sampingnya: distro Linux seperti ini juga kerap disalahgunakan oleh script kiddie. Istilah script kiddie adalah sebutan untuk orang yang menjalankan tool dan mengikuti panduan tanpa memahami apa yang dilakukan oleh dirinya. Hal ini berbeda dari hacker yang memahami setiap aksi yang dilakukannya dan mampu membuat tool/script-nya sendiri.
 
+###SSH
 SSH merupakan singkatan dari Secure Shell yang merupakan suatu aplikasi pengganti remote login tak jauh berbeda dengan Rsh dan rlogin. SSH merupakan suatu protokol jaringan yang  dengan adanya SSH ini kita dapat menukarkan data melalui saluran yang aman antara dua perangkat jaringan. Protokol jaringan ini sering digunakan pada sistem operasi Linux dan dirancang sebagai pengganti Telnet dan shell remote tak aman lainnya.
 
+###Brute Force Attack
 Brute Force Attack adalah metode untuk meretas password (password cracking) dengan cara mencoba semua kemungkinan kombinasi yang ada pada “wordlist“. Metode ini dijamin akan berhasil menemukan password yang ingin diretas. Namun, proses untuk meretas password dengan menggunakan metode ini akan memakan banyak waktu.
 
 THC Hydra
