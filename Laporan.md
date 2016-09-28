@@ -16,6 +16,8 @@ Kali Linux adalah penerus distro BackTrack. Sama seperti BackTrack, distro ini d
 
 SSH merupakan singkatan dari Secure Shell yang merupakan suatu aplikasi pengganti remote login tak jauh berbeda dengan Rsh dan rlogin. SSH merupakan suatu protokol jaringan yang  dengan adanya SSH ini kita dapat menukarkan data melalui saluran yang aman antara dua perangkat jaringan. Protokol jaringan ini sering digunakan pada sistem operasi Linux dan dirancang sebagai pengganti Telnet dan shell remote tak aman lainnya.
 
+Brute Force Attack adalah metode untuk meretas password (password cracking) dengan cara mencoba semua kemungkinan kombinasi yang ada pada “wordlist“. Metode ini dijamin akan berhasil menemukan password yang ingin diretas. Namun, proses untuk meretas password dengan menggunakan metode ini akan memakan banyak waktu.
+
 THC Hydra
 
 ##Uji Penetrasi 1
