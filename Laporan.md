@@ -26,83 +26,90 @@ THC Hydra
 
 ##Uji Penetrasi 1
 ###Instalasi Ubuntu Server
-Memilih bahasa yang digunakan untuk menjalankan sistem operasi
-![](images/install_ubuntu_server_1.png?raw=true)
-Memilih lokasi
-![](images/install_ubuntu_server_2.png?raw=true)
-Konfigurasi keyboard
-![](images/install_ubuntu_server-3.png?raw=true)
-![](images/install_ubuntu_server_4.png?raw=true)
-![](images/install_ubuntu_server-5.png?raw=true)
-Loading komponen tambahan
-![](images/install_ubuntu_server_6.png?raw=true)
-Konfigurasi jaringan
-![](images/install_ubuntu_server_7.png?raw=true)
-Mengatur fullname, username, dan password
-![](images/install_ubuntu_server_8.png?raw=true)
-INI SALAH SKRINSOT
-![](images/install_ubuntu_server_9.png?raw=true)
-![](images/install_ubuntu_server_10.png?raw=true)
-![](images/install_ubuntu_server_11.png?raw=true)
-![](images/install_ubuntu_server-12.png?raw=true)
-Mendapatkan waktu berdasarkan server waktu jaringan
-![](images/install_ubuntu_server_13.png?raw=true)
-![](images/install_ubuntu_server_14.png?raw=true)
-Partisi disk
-![](images/install_ubuntu_server-15.png?raw=true)
-![](images/install_ubuntu_server_16.png?raw=true)
-Instalasi sistem operasi
-![](images/install_ubuntu_server_17.png?raw=true)
-Konfigurasi apt
-![](images/install_ubuntu_server_18.png?raw=true)
+Memilih bahasa yang digunakan untuk menjalankan sistem operasi<br/>
+![](images/install_ubuntu_server_1.png?raw=true)<br/>
+Memilih lokasi<br/>
+![](images/install_ubuntu_server_2.png?raw=true)<br/>
+Konfigurasi keyboard<br/>
+![](images/install_ubuntu_server-3.png?raw=true)<br/>
+![](images/install_ubuntu_server_4.png?raw=true)<br/>
+![](images/install_ubuntu_server-5.png?raw=true)<br/>
+Loading komponen tambahan<br/>
+![](images/install_ubuntu_server_6.png?raw=true)<br/>
+Konfigurasi jaringan<br/>
+![](images/install_ubuntu_server_7.png?raw=true)<br/>
+Mengatur fullname, username, dan password<br/>
+![](images/install_ubuntu_server_8.png?raw=true)<br/>
+![](images/install_ubuntu_server_10.png?raw=true)<br/>
+![](images/install_ubuntu_server_11.png?raw=true)<br/>
+![](images/install_ubuntu_server-12.png?raw=true)<br/>
+Mendapatkan waktu berdasarkan server waktu jaringan<br/>
+![](images/install_ubuntu_server_13.png?raw=true)<br/>
+![](images/install_ubuntu_server_14.png?raw=true)<br/>
+Partisi disk<br/>
+![](images/install_ubuntu_server-15.png?raw=true)<br/>
+![](images/install_ubuntu_server_16.png?raw=true)<br/>
+Instalasi sistem operasi<br/>
+![](images/install_ubuntu_server_17.png?raw=true)<br/>
+Konfigurasi apt<br/>
+![](images/install_ubuntu_server_18.png?raw=true)<br/>
 
 
 ###Instalasi Kali Linux
-Memilih bahasa yang digunakan untuk menjalankan sistem operasi
-![](images/install_kali.png?raw=true)
-Memilih lokasi
-![](images/install_kali_2.png?raw=true)
-![](images/install_kali_3.png?raw=true)
-![](images/install_kali_4.png?raw=true)
-Memilih waktu
-![](images/install_kali_5.png?raw=true)
-Konfigurasi keyboard
-![](images/install_kali_6.png?raw=true)
-Loading komponen tambahan
-![](images/install_kali_7.png?raw=true)
-Konfigurasi jaringan
-![](images/install_kali_8.png?raw=true)
-![](images/install_kali_9.png?raw=true)
-Mengatur fullname, username, dan password
-![](images/install_kali_10.png?raw=true)
-Mendapatkan waktu berdasarkan server waktu jaringan
-![](images/install_kali_11.png?raw=true)
-![](images/install_kali_12.png?raw=true)
-Partisi disk
-![](images/install_kali_13.png?raw=true)
-![](images/install_kali_14.png?raw=true)
-![](images/install_kali_15.png?raw=true)
-![](images/install_kali_16.png?raw=true)
-Instalasi sistem
-![](images/install_kali_17.png?raw=true)
+Memilih bahasa yang digunakan untuk menjalankan sistem operasi<br/>
+![](images/install_kali.png?raw=true)<br/>
+Memilih lokasi<br/>
+![](images/install_kali_2.png?raw=true)<br/>
+![](images/install_kali_3.png?raw=true)<br/>
+![](images/install_kali_4.png?raw=true)<br/>
+Memilih waktu<br/>
+![](images/install_kali_5.png?raw=true)<br/>
+Konfigurasi keyboard<br/>
+![](images/install_kali_6.png?raw=true)<br/>
+Loading komponen tambahan<br/>
+![](images/install_kali_7.png?raw=true)<br/>
+Konfigurasi jaringan<br/>
+![](images/install_kali_8.png?raw=true)<br/>
+![](images/install_kali_9.png?raw=true)<br/>
+Mengatur fullname, username, dan password<br/>
+![](images/install_kali_10.png?raw=true)<br/>
+Mendapatkan waktu berdasarkan server waktu jaringan<br/>
+![](images/install_kali_11.png?raw=true)<br/>
+![](images/install_kali_12.png?raw=true)<br/>
+Partisi disk<br/>
+![](images/install_kali_13.png?raw=true)<br/>
+![](images/install_kali_14.png?raw=true)<br/>
+![](images/install_kali_15.png?raw=true)<br/>
+![](images/install_kali_16.png?raw=true)<br/>
+Instalasi sistem<br/>
+![](images/install_kali_17.png?raw=true)<br/>
 
 
-###Instalsi SSH Server
-![](images/install_ssh_server.png?raw=true)
-
-
-###Instalsi THC Hydra
-![](images/install_thc_hydra.png?raw=true)
-
-
-###Instalsi SSH Server
-![](images/install_ssh_server.png?raw=true)
+###Instalasi SSH Server
+![](images/install_ssh_server.png?raw=true)<br/>
 
 
 ###Langkah Uji Penetrasi dengan SSH Brute Force Tools
+####THC Hydra
+Tools THC Hydra sudah ada pada OS Kali Linux, sehingga tidak memerlukan instalasi. Begitu juga pada OS Kali Linux, sudah terdapat dictionary password yang sering digunakan dan untuk itu kami tidak perlu mendownload atau mencari dictionary lagi.<br/>
+Pada uji penetrasi pertama, kami mecoba untuk mencari password dari user root ubuntu server, namun password tidak ditemukan, padahal password yang kami gunakan ada pada dictionary kali linux. Kemudian kami mendapat referensi, memang by default dari konfigurasi ssh, bahwa kita tidak dapat melakukan ssh pada ubuntu server dengan user root secara langsung.
+Kemudian, kami akhirnya mengasumsikan bahwa attacker telah mengetahui username dari server yang akan diserang, sehingga syntax yang kami gunakan adalah :<br/>
+> hydra -l ubuntuserver -P /usr/share/wordlists/metasploits/unix_passwords.txt -t 6 ssh://10.151.43.26
+
+Kami mencoba untuk melakukan attempt login dengan username **ubuntuserver** dengan dictionary password pada /usr/share/wordlists/metasploits/unix_passwords.txt, menggunakan 6 thread (**-t 6**) pada ubuntu server dengan ip 10.151.43.26. <br/>
 ![](images/hydra.png?raw=true)
 
+####Ncrack
+Pada percobaan tools Ncrack melalui kali linux gagal dijalankan, dan error yang muncul adalah sebagai berikut <br/>
+![](images/ncrack_error_kali.png?raw=true)
 
+Setelah berusaha mendownload library yang dibutuhkan, kemudian me-upgrade OS Kali Linux, hasilnya Ncrack belum bisa dijalankan pada Kali Linux. <br/>
+Kami kemudian menggunakan ubuntu desktop (non virtual) untuk mencoba melakukan penetrasi menggunakan Ncrack dan berhasil mendapatkan password dari user **ubuntuserver**
+command yang kami jalankan adalah sebagai berikut
+> ncrack -p 22 -user ubuntuserver -P 1000_passwords.txt 10.151.43.26
+
+Kami mencoba untuk melakukan attempt login dengan username **ubuntuserver** melalui port 22 (ssh) dengan dictionary password yang telah kami download melalui internet yaitu **1000_passwords.txt** pada server 10.151.43.26<br/>
+![](images/ncrack_with_ubuntunonvirtual.png?raw=true)<br/>
 ##Uji Penetrasi 2
 
 
