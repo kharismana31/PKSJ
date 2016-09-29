@@ -115,5 +115,11 @@ Kami mencoba untuk melakukan attempt login dengan username **ubuntuserver** mela
 
 
 ##Kesimpulan dan Saran
+####Kesimpulan:
+- Sistem keamanan pada suatu Ubuntu server bisa diserang dari perangkat lain dengan cara brute force attack via SSH server, terutama jika password yang digunakan pada ubuntu server adalah password umumnya. Perangkat lain ini melakukan penyerangan dengan menggunakan software ncrack dan hydra pada sistem operasi Kali Linux. Kali linux dipilih sebagai Sistem operasi penyerang karena dapat membantu 2 software penyerang tadi, dengan menyediakan kamus data tentang password yang sering digunakan, sehingga aplikasi tersebut bisa melakukan brute force attack dengan mencoba satu demi satu password tersebut.
+- Sistem keamanan pada ubuntu server bisa dijaga dari serangan brute force attack dengan bantuan aplikasi pencegah serangan tersebut, seperti fail2ban. Aplikasi semacam fail2ban ini dapat mencegah aktivitas login berkali kali dari ip address yang sama dengan memblok ip address yang gagal login tersebut. 
+
+####Saran:
+- Dengan dilakukannya uji penetrasi menyerang dan pencegahan terhadap serangan ini, telah disimpulkan bahwa brute force attack bisa membahayakan sistem keamanan ubuntu server, terutama jika pengguna ubuntu server menggunakan password yang sudah biasa digunakan dan telah terdaftar pada dictionary password yang biasa digunakan. Oleh karena itu penulis menyarankan kepada pengguna ubuntu server untuk mengkonfigurasi password dengan kombinasi yang unik untuk mengecilkan kemungkinan sistem keamanan diserang dengan brute force attack atau mengimplementasikan penggunaan aplikasi yang mencegah serangan brute force pada linux, seperti fail2ban agar sistem dapat memblok ip address dari login yang gagal berkali kali tersebut.
 
 
