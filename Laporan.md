@@ -1,9 +1,9 @@
 ##Pendahuluan
 Dalam merancang sebuah sistem atau jaringan yang aman, pemilik melakukan berbagai usaha untuk menjamin sistem atau jaringan tersebut benar benar aman. Salah satu cara untuk menjamin keamanan tersebut adalah dengan menyerang sistem atau jaringan itu sendiri, dengan mengetahui cara menyerang sistem atau jaringan tersebut diharapkan pengembang sistem dapat melakukan pencegahan agar sistem tidak bisa diserang dengan cara yang sama.
 
-Kali ini, penulis akan mengulas tentang bagaimana sebuah sistem dapat diserang dengan brute force attack, dimana kemudian akan dilakukan usaha pencegahan penyerangan tersebut dengan melakukan brute force countermeasures. 
+Kali ini, penulis akan mengulas tentang bagaimana sebuah sistem dapat diserang dengan brute force attack, dimana kemudian akan dilakukan usaha pencegahan penyerangan tersebut dengan melakukan brute force countermeasures.
 
-Sistem yang menjadi bahan percobaan kali ini adalah ubuntu server yang telah terinstall SSH server, dimana penulis juga akan melakukan percobaan sebanyak 2 kali penetrasi. Pada penetrasi pertama,dilakukan penyerangan pada sistem ubuntu server melalui SSH server yang telah terinstall dan pada penetrasi kedua akan dilakukan upaya pencegahan (countermeasures) pada ubuntu server. 
+Sistem yang menjadi bahan percobaan kali ini adalah ubuntu server yang telah terinstall SSH server, dimana penulis juga akan melakukan percobaan sebanyak 2 kali penetrasi. Pada penetrasi pertama,dilakukan penyerangan pada sistem ubuntu server melalui SSH server yang telah terinstall dan pada penetrasi kedua akan dilakukan upaya pencegahan (countermeasures) pada ubuntu server.
 
 Untuk melakukan brute force attack pada ubuntu server, penulis melakukan penyerangan melalui Sistem operasi Kali Linux, dengan software Hydra dan ncrack. Sementara itu, countermeasure dilakukan dengan aplikasi file2ban yang terinstall di ubuntu server.
 
@@ -22,7 +22,8 @@ SSH merupakan singkatan dari Secure Shell yang merupakan suatu aplikasi penggant
 ###Brute Force Attack
 Brute Force Attack adalah metode untuk meretas password (password cracking) dengan cara mencoba semua kemungkinan kombinasi yang ada pada “wordlist“. Metode ini dijamin akan berhasil menemukan password yang ingin diretas. Namun, proses untuk meretas password dengan menggunakan metode ini akan memakan banyak waktu.
 
-THC Hydra
+###Fail2ban
+Fail2ban adalah package keamanan yang digunakan untuk mencegah serangan brute-force dan DDoS pada linux. Fail2ban bekerja dengan memonitor jumlah kegagalan login untuk selanjutnya memblok ip address dari login yang gagal tersebut.
 
 ##Uji Penetrasi 1
 ###Instalasi Ubuntu Server
@@ -111,6 +112,22 @@ command yang kami jalankan adalah sebagai berikut
 Kami mencoba untuk melakukan attempt login dengan username **ubuntuserver** melalui port 22 (ssh) dengan dictionary password yang telah kami download melalui internet yaitu **1000_passwords.txt** pada server 10.151.43.26<br/>
 ![](images/ncrack_with_ubuntunonvirtual.png?raw=true)<br/>
 ##Uji Penetrasi 2
+Setelah fail2ban diinstall, lakukan setting iptables di Ubuntu Server<br/>
+> sudo iptables -A INPUT -i lo -j ACCEPT
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+sudo iptables -A INPUT -j DROP
+
+Kemudian restart fail2ban dengan command
+>sudo service fail2ban restart
+
+
+Menampilkan iptables yang telah diset<br/>
+![](images/showing_iptables_dan_fail2ban.png?raw=true)
+Mencoba meng-ssh Ubuntu Server menggunakan fail2ban <br/>
+![](images/gagal_ssh_by_fail2ban_iptables.png?raw=true)
+Penolakan koneksi ssh dr Ubuntu Server tercatat dalam log file2ban<br/>
+![](images/logfile_file2ban.png?raw=true)
 
 
 
