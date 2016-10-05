@@ -113,10 +113,10 @@ Kami mencoba untuk melakukan attempt login dengan username **ubuntuserver** mela
 ![](images/ncrack_with_ubuntunonvirtual.png?raw=true)<br/>
 ##Uji Penetrasi 2
 Setelah fail2ban diinstall, lakukan setting iptables di Ubuntu Server<br/>
-> sudo iptables -A INPUT -i lo -j ACCEPT
-sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-sudo iptables -A INPUT -j DROP
+> sudo iptables -A INPUT -i lo -j ACCEPT <br/>
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT <br/>
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT <br/>
+sudo iptables -A INPUT -j DROP <br/>
 
 Kemudian restart fail2ban dengan command
 >sudo service fail2ban restart
@@ -129,6 +129,9 @@ Mencoba meng-ssh Ubuntu Server menggunakan fail2ban <br/>
 Penolakan koneksi ssh dr Ubuntu Server tercatat dalam log file2ban<br/>
 ![](images/logfile_file2ban.png?raw=true)
 
+|||Tambahan|||
+Selain menggunakan fail2ban, masih banyak countermeasure lain yang bisa melindungi sistem dari upaya brute force attack. Salah satunya adalah penggunaan SSH guard. SSH guard dapat melindungi host dari brute force attack yang melalui SSH. Berikut adalah contoh penggunaan dari SSH guard dengan melakukan drop IP.
+![](images/list_iptables_drop_paket_ssh.png?raw=true)<br/>
 
 
 ##Kesimpulan dan Saran
