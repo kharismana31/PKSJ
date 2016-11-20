@@ -53,24 +53,43 @@ Konfigurasi apt<br/>
 
 ###Instalasi Kippo Honeypot pada Ubuntu Server
 Pertama lakukan update pada Ubuntu Server
+
 > apt-get update
+
 Kemudian ganti port (defaultnya port 22) dengan port 2222 pada file sshd_config, caranya ketikkan perintah ini:
+
 > nano /etc/ssh/sshd_config
+
 lalu edit port yang tertera di sana dengan port 2222. Jika sudah lakukan perintah restart
+
 > /etc/init.d/ssh restart
+
 Selanjutnya, download semua kebutuhan untuk Kippo dengan mengetikkan perintah:
+
 > apt-get install python-dev openssl python-openssl python-pyasn1 python-twisted
+
 Sebelum melangkah lebih lanjut, install git pada Ubuntu Server terlebih dahulu
+
 > apt-get install git
+
 Ketikkan perintah ini untuk menjalankan honeypot pada port 22
+
 > apt-get install authbind
+
 Sebelum memulai Kippo, tambahkan user Kippo pada Ubuntu server dengan megetikkan perintah di bawah ini
+
 ![](1_tambah_user_kippo.png?raw=true)<br/>
+
 Tambahkan user Kippo pada list user yang dapat mengakses perintah sudo dengan mengetikkan perintah ini
+
 ![](2_edit_visudo.png?raw=true)<br/>
+
 Tambahkan satu line ini di bawah "root" user 
+
 ![](3_edit_visudo.png?raw=true)<br/>
+
 Untuk menyelesaikan settingan Kippo lakukan perintah di bawah ini
+
 ![](4_using_port_22.png?raw=true)<br/>
 
 ![](5_using_port_22.png?raw=true)<br/>
@@ -78,25 +97,39 @@ Untuk menyelesaikan settingan Kippo lakukan perintah di bawah ini
 ![](6_using_port_22.png?raw=true)<br/>
 
 Selanjutnya lakukan perintah ini untuk mendowload Kippo versi terbaru 
+
 ![](7_git_clone.png?raw=true)<br/>
+
 Copy dan edit file konfigurasi Kippo dari port 2222 menjadi port 22 
+
 ![](8_copy_kippo.png?raw=true)<br/>
+
 ![](9_nano_kippo.png?raw=true)<br/>
+
 Kemudian edit file start.sh dengan mengetikkan:
+
 > nano start.sh
+
 Ubah line ini:
+
 > twistd -y kippo.tac -l log/kippo.log --pidfile kippo.pid
+
 menjadi:
+
 > authbind --deep twistd -y kippo.tac -l log/kippo.log --pidfile kippo.pid
+
 Terakhir jalankan honeypot
+
 ![](11_run_honeypot.png?raw=true)<br/>
+
 Untuk mengecek status Kippo telah "listening" ketikkan perintah berikut
+
 ![](12_cek_kippo.png?raw=true)<br/>
 
 ###Hasil Uji Penetrasi dengan SSH Brute Force Tools: Medusa
 ![](16:52:38_connect to ssh.png?raw=true)<br/>
 ![](16:53:49 pass gagal.png?raw=true)<br/>
-![](16:54:37 login success root.pngg?raw=true)<br/>
+![](16:54:37 login success root.png?raw=true)<br/>
 ![](16:55:48 ls.png?raw=true)<br/>
 ![](16:56:37 touch pksj.png?raw=true)<br/>
 ![](16:57:34 ls & rm.png?raw=true)<br/>
