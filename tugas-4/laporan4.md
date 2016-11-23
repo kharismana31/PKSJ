@@ -23,7 +23,7 @@ Honeypot adalah suatu sistem palsu yang sengaja dibuat untuk menjebak attacker m
 ##Persiapan Uji Penetrasi
 ###Instalasi Ubuntu Server
 Memilih bahasa yang digunakan untuk menjalankan sistem operasi<br/>
-![]https://github.com/kharismana31/PKSJ/blob/master/tugas1/images/install_ubuntu_server_1.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/blob/master/tugas1/images/install_ubuntu_server_1.png?raw=true)<br/>
 Memilih lokasi<br/>
 ![](PKSJ/tugas1/images/install_ubuntu_server_2.png?raw=true)<br/>
 Konfigurasi keyboard<br/>
@@ -118,7 +118,7 @@ menjadi:
 
 > authbind --deep twistd -y kippo.tac -l log/kippo.log --pidfile kippo.pid
 
-Terakhir jalankan honeypot
+Dan terakhir jalankan honeypot
 
 ![](11_run_honeypot.png?raw=true)<br/>
 
@@ -127,14 +127,14 @@ Untuk mengecek status Kippo telah "listening" ketikkan perintah berikut
 ![](12_cek_kippo.png?raw=true)<br/>
 
 ###Hasil Uji Penetrasi dengan SSH Brute Force Tools: Medusa
-![](16:52:38_connect to ssh.png?raw=true)<br/>
-![](16:53:49 pass gagal.png?raw=true)<br/>
-![](16:54:37 login success root.png?raw=true)<br/>
-![](16:55:48 ls.png?raw=true)<br/>
-![](16:56:37 touch pksj.png?raw=true)<br/>
-![](16:57:34 ls & rm.png?raw=true)<br/>
-![](16:59:41 exit.png?raw=true)<br/>
-![](17:00:18 ls terakhir.png?raw=true)<br/>
+![](16-52-38_connect_to_ssh.png?raw=true)<br/>
+![](16-53-49_pass_gagal.png?raw=true)<br/>
+![](16-54-37_login_success_root.png?raw=true)<br/>
+![](16-55-48_ls.png?raw=true)<br/>
+![](16-56-37_touch_pksj.png?raw=true)<br/>
+![](16-57-34_ls_rm.png?raw=true)<br/>
+![](16-59-41_exit.png?raw=true)<br/>
+![](17-00-18_ls_terakhir.png?raw=true)<br/>
 
 ##Kesimpulan dan Saran
 ####Kesimpulan:
