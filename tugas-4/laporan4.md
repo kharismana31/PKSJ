@@ -25,30 +25,30 @@ Honeypot adalah suatu sistem palsu yang sengaja dibuat untuk menjebak attacker m
 Memilih bahasa yang digunakan untuk menjalankan sistem operasi<br/>
 ![](https://github.com/kharismana31/PKSJ/blob/master/tugas1/images/install_ubuntu_server_1.png?raw=true)<br/>
 Memilih lokasi<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_2.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_2.png?raw=true)<br/>
 Konfigurasi keyboard<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server-3.png?raw=true)<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_4.png?raw=true)<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server-5.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server-3.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_4.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server-5.png?raw=true)<br/>
 Loading komponen tambahan<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_6.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_6.png?raw=true)<br/>
 Konfigurasi jaringan<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_7.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_7.png?raw=true)<br/>
 Mengatur fullname, username, dan password<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_8.png?raw=true)<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_10.png?raw=true)<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_11.png?raw=true)<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server-12.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_8.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_10.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_11.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server-12.png?raw=true)<br/>
 Mendapatkan waktu berdasarkan server waktu jaringan<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_13.png?raw=true)<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_14.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_13.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_14.png?raw=true)<br/>
 Partisi disk<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server-15.png?raw=true)<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_16.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server-15.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_16.png?raw=true)<br/>
 Instalasi sistem operasi<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_17.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_17.png?raw=true)<br/>
 Konfigurasi apt<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_18.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_18.png?raw=true)<br/>
 
 
 ###Instalasi Kippo Honeypot pada Ubuntu Server
