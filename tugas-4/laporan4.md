@@ -23,7 +23,7 @@ Honeypot adalah suatu sistem palsu yang sengaja dibuat untuk menjebak attacker m
 ##Persiapan Uji Penetrasi
 ###Instalasi Ubuntu Server
 Memilih bahasa yang digunakan untuk menjalankan sistem operasi<br/>
-![](PKSJ/tugas1/images/install_ubuntu_server_1.png?raw=true)<br/>
+![]https://github.com/kharismana31/PKSJ/blob/master/tugas1/images/install_ubuntu_server_1.png?raw=true)<br/>
 Memilih lokasi<br/>
 ![](PKSJ/tugas1/images/install_ubuntu_server_2.png?raw=true)<br/>
 Konfigurasi keyboard<br/>
@@ -108,7 +108,7 @@ Copy dan edit file konfigurasi Kippo dari port 2222 menjadi port 22
 
 Kemudian edit file start.sh dengan mengetikkan:
 
-> nano start.sh
+![](10_nano_start.png?raw=true)<br/>
 
 Ubah line ini:
 
