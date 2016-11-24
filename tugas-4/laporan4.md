@@ -1,7 +1,7 @@
 ##Pendahuluan
 Dalam merancang sebuah sistem atau jaringan yang aman, pemilik melakukan berbagai usaha untuk menjamin sistem atau jaringan tersebut benar benar aman. Salah satu cara untuk menjamin keamanan tersebut adalah dengan menyerang sistem atau jaringan itu sendiri, dengan mengetahui cara menyerang sistem atau jaringan tersebut diharapkan pengembang sistem dapat melakukan pencegahan agar sistem tidak bisa diserang dengan cara yang sama.
 
-Kali ini, penulis akan mengulas tentang bagaimana sebuah sistem dapat diserang dengan brute force attack, dimana kemudian akan dilakukan usaha pencegahan penyerangan tersebut dengan membuat suatu sistem palsu yang disebut honeypot.
+Kali ini, penulis akan mengulas tentang bagaimana sebuah sistem dapat diserang dengan brute force attack, dimana kemudian akan dilakukan usaha penganalisaan penyerangan tersebut dengan membuat suatu sistem palsu yang disebut honeypot.
 
 Sistem yang menjadi bahan percobaan kali ini adalah Ubuntu Server yang telah terinstall Kippo Honeypot. Penulis menggunakan Kali Linux untuk menyerang Ubuntu Server tersebut.
 
@@ -138,9 +138,13 @@ Untuk mengecek status Kippo telah "listening" ketikkan perintah berikut
 
 ##Kesimpulan dan Saran
 ####Kesimpulan:
-
+Dari percobaan yang telah dilakukan, dapat disimpulkan bahwa:<br/>
+1. Kippo SSH honeypot dapat digunakan untuk mengelabui Attacker dengan memanipulasi port dari SSH dan port dari kippo honeypotnya, yang membuat kippo diakses melalui port default SSH yaitu 22
+2. Ditujukan untuk seakan akan sistem dapat dibobol agar dapat melihat aktivitas Attacker saat masuk dalam sistem
+3. 
 
 ####Saran:
+Dalam hal mengelabui Attacker yang pake brute force attack, dan kita pake Kippo SSH Honeypot, pada database password yang bisa diserang brute force attack, 
 
 
 
