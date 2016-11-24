@@ -25,7 +25,7 @@ Honeypot adalah suatu sistem palsu yang sengaja dibuat untuk menjebak attacker m
 Memilih bahasa yang digunakan untuk menjalankan sistem operasi<br/>
 ![](https://github.com/kharismana31/PKSJ/blob/master/tugas1/images/install_ubuntu_server_1.png?raw=true)<br/>
 Memilih lokasi<br/>
-![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_2.png?raw=true)<br/>
+![](https://github.com/kharismana31/PKSJ/blob/master/tugas1/images/install_ubuntu_server_2.png?raw=true)<br/>
 Konfigurasi keyboard<br/>
 ![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server-3.png?raw=true)<br/>
 ![](https://github.com/kharismana31/PKSJ/tree/master/tugas1/images/install_ubuntu_server_4.png?raw=true)<br/>
