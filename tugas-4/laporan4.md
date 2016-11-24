@@ -126,14 +126,28 @@ Untuk mengecek status Kippo telah "listening" ketikkan perintah berikut
 
 ![](12_cek_kippo.png?raw=true)<br/>
 
-###Hasil Uji Penetrasi dengan SSH Brute Force Tools: Medusa
+###Hasil Uji Penetrasi dengan SSH Brute Force Tools: Medusa <br/>
+##Pada Sisi Server
+Pada fase ini, server yang sedang menjalankan ssh honeypot dapat mengelabui Attacker dengan cara membuat database password yang dapat diakses brute force attacker, yaitu dengan mengkonfigurasi pada:<br/>
+> nano data/db.txt
+Log dari aktivitas yang dilakukan oleh Attacker dari saat login, dalam sistem, hingga saat attacker keluar, server dapat mengaksesnya dengan di log kippo, dengan
+> log log
+Berikut adalah contoh dari log yang tercatat saat sistem sedang diserang oleh brute force attacker dari yang pada awalnya gagal hingga berhasil mendapatkan password dari kippo ssh honeypot seakan akan masuk kedalam ssh server yang asli <br/>
+Terlihat bahwa attacker mencoba untuk login
 ![](16-52-38_connect_to_ssh.png?raw=true)<br/>
+Attacker mencoba password yang salah yaitu "apahayo"
 ![](16-53-49_pass_gagal.png?raw=true)<br/>
+Attacker mencoba password yang salah yaitu "root"
 ![](16-54-37_login_success_root.png?raw=true)<br/>
+log aktivitas pertama dari attacker setelah masuk sistem, yaitu ls
 ![](16-55-48_ls.png?raw=true)<br/>
+touch
 ![](16-56-37_touch_pksj.png?raw=true)<br/>
+menghapus
 ![](16-57-34_ls_rm.png?raw=true)<br/>
+keluar dari sistem
 ![](16-59-41_exit.png?raw=true)<br/>
+namun tidak benar benar keluar, ini lah yang disebut jebakan
 ![](17-00-18_ls_terakhir.png?raw=true)<br/>
 
 ##Kesimpulan dan Saran
